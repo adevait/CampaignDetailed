@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col-md-6">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_CampaignStatistics' | translate }}</h2>
+        {{ graphPieCampaigns | raw }}
+    </div>
+    <div class="col-md-6">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_UtmDetails' | translate }}</h2>
+        <div class="sparkline">{{ sparkline(sparklineCampaign) }} <strong>{{numberDistinctCampaigns}}</strong> {{ 'CampaignDetailed_DifferentCampaigns' | translate }}</div>
+        <div class="sparkline">{{ sparkline(sparklineKeyword) }}<strong>{{numberDistinctKeywords}}</strong> {{ 'CampaignDetailed_DifferentKeywords' | translate }}</div>
+        <div class="sparkline">{{ sparkline(sparklineSource) }}<strong>{{numberDistinctSources}}</strong> {{ 'CampaignDetailed_DifferentSources' | translate }}</div>
+        <div class="sparkline">{{ sparkline(sparklineContent) }}<strong>{{numberDistinctContent}}</strong> {{ 'CampaignDetailed_DifferentContents' | translate }}</div>
+        <div class="sparkline">{{ sparkline(sparklineMedium) }}<strong>{{numberDistinctMediums}}</strong> {{ 'CampaignDetailed_DifferentMediums' | translate }}</div>
+    </div>
+</div>
+<div class="row" style="margin-top:20px">
+    <div class="col-md-12">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_CampaignEvolution' | translate }}</h2>
+        {{ graphEvolutionCampaigns | raw }}
+    </div>
+</div>
+<div class="row" style="margin-top:20px">
+    <div class="col-md-6">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_KeywordStatistics' | translate }}</h2>
+        {{ graphKeywords | raw }}
+    </div>
+    <div class="col-md-6">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_SourceStatistics' | translate }}</h2>
+        {{ graphSources | raw }}
+    </div>
+</div>
+<div class="row" style="margin-top:20px">
+    <div class="col-md-6">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_ContentStatistics' | translate }}</h2>
+        {{ graphContents | raw }}
+    </div>
+    <div class="col-md-6">
+        <h2 piwik-enriched-headline>{{ 'CampaignDetailed_MediumStatistics' | translate }}</h2>
+        {{ graphMediums | raw }}
+    </div>
+</div>
+
+{% include "_sparklineFooter.twig" %}

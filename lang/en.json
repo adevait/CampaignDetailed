@@ -1,0 +1,32 @@
+{
+    "CampaignDetailed": {
+        "CampaignReport": "Campaign Report",
+        "Medium": "Medium",
+        "Source": "Source",
+        "Campaign": "Campaign",
+        "Keyword": "Keyword",
+        "Content": "Content",
+        "Adwords": "Adwords Analytics",
+        "GeneralOverview": "General Overview",
+        "SourceReport": "Source Report",
+        "ContentReport": "Content Report",
+        "CampaignsReportDocumentation" : "Campaign report",
+        "KeywordReportDocumentation" : "Keyword report",
+        "MediumReportDocumentation" : "Medium report",
+        "ContentReportDocumentation" : "Content report",
+        "SourceReportDocumentation" : "Source report",
+        "OverviewReportDocumentation" : "Overview of the adword analytics",
+        "UtmDetails" : "Different UTM Parameters (Total)",
+        "DifferentCampaigns" : "different campaigns",
+        "DifferentKeywords" : "different keywords",
+        "DifferentMediums" : "different mediums",
+        "DifferentContents" : "different contents",
+        "DifferentSources" : "different sources",
+        "CampaignEvolution" : "Campaign Evolution over the period",
+        "CampaignStatistics" : "Campaign Statistics",
+        "KeywordStatistics" : "Keyword Statistics",
+        "MediumStatistics" : "Medium Statistics",
+        "ContentStatistics" : "Content Statistics",
+        "SourceStatistics" : "Source Statistics"
+    }
+}

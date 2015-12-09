@@ -1,0 +1,16 @@
+{
+    "name": "CampaignDetailed",
+    "version": "0.1.0",
+    "description": "Detailed report for Adwords campaigns",
+    "theme": false,
+    "require": {
+        "piwik": ">=2.15.0"
+    },
+    "authors": [
+        {
+            "name": "Katerina Trajchevska",
+            "email": "trajchevska@adevait.com",
+            "homepage": "https://adevait.com/"
+        }
+    ]
+}
